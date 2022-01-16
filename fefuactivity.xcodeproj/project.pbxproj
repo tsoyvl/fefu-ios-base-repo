@@ -29,6 +29,8 @@
 		B4AB56A42793F41C00127FB7 /* ActivityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4AB56A22793F41C00127FB7 /* ActivityTableViewCell.xib */; };
 		B4AB56A72793F49C00127FB7 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56A52793F49C00127FB7 /* ProfileController.swift */; };
 		B4AB56A82793F49C00127FB7 /* ProfileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4AB56A62793F49C00127FB7 /* ProfileController.xib */; };
+		B4AB56B22793F98D00127FB7 /* ActivityTrackingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56B02793F98D00127FB7 /* ActivityTrackingController.swift */; };
+		B4AB56B32793F98D00127FB7 /* ActivityTrackingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4AB56B12793F98D00127FB7 /* ActivityTrackingController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		B4AB56A22793F41C00127FB7 /* ActivityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityTableViewCell.xib; sourceTree = "<group>"; };
 		B4AB56A52793F49C00127FB7 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		B4AB56A62793F49C00127FB7 /* ProfileController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileController.xib; sourceTree = "<group>"; };
+		B4AB56B02793F98D00127FB7 /* ActivityTrackingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTrackingController.swift; sourceTree = "<group>"; };
+		B4AB56B12793F98D00127FB7 /* ActivityTrackingController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityTrackingController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 		B4AB56812793EFD600127FB7 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B4AB56AF2793F97800127FB7 /* ActivityTracking */,
 				B4AB569B2793F3C700127FB7 /* ActivityDetails */,
 				B4AB56962793F39000127FB7 /* ActivityList */,
 				B4AB56912793F34600127FB7 /* Tabs */,
@@ -203,6 +208,15 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
+		B4AB56AF2793F97800127FB7 /* ActivityTracking */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB56B02793F98D00127FB7 /* ActivityTrackingController.swift */,
+				B4AB56B12793F98D00127FB7 /* ActivityTrackingController.xib */,
+			);
+			path = ActivityTracking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -263,6 +277,7 @@
 				1DE4E5D1270A5CD0004A30CA /* LaunchScreen.storyboard in Resources */,
 				B4AB56A42793F41C00127FB7 /* ActivityTableViewCell.xib in Resources */,
 				1DE4E5CE270A5CD0004A30CA /* Assets.xcassets in Resources */,
+				B4AB56B32793F98D00127FB7 /* ActivityTrackingController.xib in Resources */,
 				B4AB569A2793F3A800127FB7 /* ActivityListController.xib in Resources */,
 				B4AB568A2793F07300127FB7 /* RegistrationController.xib in Resources */,
 				B4AB56A82793F49C00127FB7 /* ProfileController.xib in Resources */,
@@ -289,6 +304,7 @@
 				B4AB56902793F12C00127FB7 /* FormTextField.swift in Sources */,
 				B4AB56842793F01B00127FB7 /* PrimaryButton.swift in Sources */,
 				B4AB56942793F36700127FB7 /* TabsController.swift in Sources */,
+				B4AB56B22793F98D00127FB7 /* ActivityTrackingController.swift in Sources */,
 				B4AB56892793F07300127FB7 /* RegistrationController.swift in Sources */,
 				1DE4E5C7270A5CCE004A30CA /* SceneDelegate.swift in Sources */,
 				B4AB56A72793F49C00127FB7 /* ProfileController.swift in Sources */,
