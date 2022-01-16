@@ -31,6 +31,13 @@
 		B4AB56A82793F49C00127FB7 /* ProfileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4AB56A62793F49C00127FB7 /* ProfileController.xib */; };
 		B4AB56B22793F98D00127FB7 /* ActivityTrackingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56B02793F98D00127FB7 /* ActivityTrackingController.swift */; };
 		B4AB56B32793F98D00127FB7 /* ActivityTrackingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4AB56B12793F98D00127FB7 /* ActivityTrackingController.xib */; };
+		B4AB56B52793FA7B00127FB7 /* FinishButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56B42793FA7B00127FB7 /* FinishButton.swift */; };
+		B4AB56B72793FA9600127FB7 /* PauseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56B62793FA9600127FB7 /* PauseButton.swift */; };
+		B4AB56BB2793FAC300127FB7 /* TypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56B92793FAC300127FB7 /* TypeCollectionViewCell.swift */; };
+		B4AB56BC2793FAC300127FB7 /* TypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4AB56BA2793FAC300127FB7 /* TypeCollectionViewCell.xib */; };
+		B4AB56C02793FB5C00127FB7 /* CDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56BF2793FB5C00127FB7 /* CDController.swift */; };
+		B4AB56C22793FB6A00127FB7 /* CoreDataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56C12793FB6A00127FB7 /* CoreDataContainer.swift */; };
+		B4AB56C52793FBBC00127FB7 /* fefuactivity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56C32793FBBC00127FB7 /* fefuactivity.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +67,13 @@
 		B4AB56A62793F49C00127FB7 /* ProfileController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileController.xib; sourceTree = "<group>"; };
 		B4AB56B02793F98D00127FB7 /* ActivityTrackingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTrackingController.swift; sourceTree = "<group>"; };
 		B4AB56B12793F98D00127FB7 /* ActivityTrackingController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityTrackingController.xib; sourceTree = "<group>"; };
+		B4AB56B42793FA7B00127FB7 /* FinishButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishButton.swift; sourceTree = "<group>"; };
+		B4AB56B62793FA9600127FB7 /* PauseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseButton.swift; sourceTree = "<group>"; };
+		B4AB56B92793FAC300127FB7 /* TypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeCollectionViewCell.swift; sourceTree = "<group>"; };
+		B4AB56BA2793FAC300127FB7 /* TypeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypeCollectionViewCell.xib; sourceTree = "<group>"; };
+		B4AB56BF2793FB5C00127FB7 /* CDController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDController.swift; sourceTree = "<group>"; };
+		B4AB56C12793FB6A00127FB7 /* CoreDataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataContainer.swift; sourceTree = "<group>"; };
+		B4AB56C42793FBBC00127FB7 /* fefuactivity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fefuactivity.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +106,7 @@
 		1DE4E5C3270A5CCE004A30CA /* fefuactivity */ = {
 			isa = PBXGroup;
 			children = (
+				B4AB56BD2793FB3700127FB7 /* Service Layer */,
 				B4AB567F2793EFBE00127FB7 /* App Layer */,
 				1DE4E5C4270A5CCE004A30CA /* AppDelegate.swift */,
 				1DE4E5C6270A5CCE004A30CA /* SceneDelegate.swift */,
@@ -99,6 +114,7 @@
 				1DE4E5CD270A5CD0004A30CA /* Assets.xcassets */,
 				1DE4E5CF270A5CD0004A30CA /* LaunchScreen.storyboard */,
 				1DE4E5D2270A5CD0004A30CA /* Info.plist */,
+				B4AB56C32793FBBC00127FB7 /* fefuactivity.xcdatamodeld */,
 			);
 			path = fefuactivity;
 			sourceTree = "<group>";
@@ -106,6 +122,7 @@
 		B4AB567F2793EFBE00127FB7 /* App Layer */ = {
 			isa = PBXGroup;
 			children = (
+				B4AB56B82793FAA100127FB7 /* CollectionViewCells */,
 				B4AB56A02793F3F700127FB7 /* TableViewCells */,
 				B4AB56822793EFDD00127FB7 /* TextFields */,
 				B4AB56812793EFD600127FB7 /* Controllers */,
@@ -118,6 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				B4AB56832793F01B00127FB7 /* PrimaryButton.swift */,
+				B4AB56B42793FA7B00127FB7 /* FinishButton.swift */,
+				B4AB56B62793FA9600127FB7 /* PauseButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -217,6 +236,32 @@
 			path = ActivityTracking;
 			sourceTree = "<group>";
 		};
+		B4AB56B82793FAA100127FB7 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB56B92793FAC300127FB7 /* TypeCollectionViewCell.swift */,
+				B4AB56BA2793FAC300127FB7 /* TypeCollectionViewCell.xib */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		B4AB56BD2793FB3700127FB7 /* Service Layer */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB56BE2793FB4B00127FB7 /* CoreData */,
+			);
+			path = "Service Layer";
+			sourceTree = "<group>";
+		};
+		B4AB56BE2793FB4B00127FB7 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB56BF2793FB5C00127FB7 /* CDController.swift */,
+				B4AB56C12793FB6A00127FB7 /* CoreDataContainer.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -278,6 +323,7 @@
 				B4AB56A42793F41C00127FB7 /* ActivityTableViewCell.xib in Resources */,
 				1DE4E5CE270A5CD0004A30CA /* Assets.xcassets in Resources */,
 				B4AB56B32793F98D00127FB7 /* ActivityTrackingController.xib in Resources */,
+				B4AB56BC2793FAC300127FB7 /* TypeCollectionViewCell.xib in Resources */,
 				B4AB569A2793F3A800127FB7 /* ActivityListController.xib in Resources */,
 				B4AB568A2793F07300127FB7 /* RegistrationController.xib in Resources */,
 				B4AB56A82793F49C00127FB7 /* ProfileController.xib in Resources */,
@@ -295,16 +341,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4AB56BB2793FAC300127FB7 /* TypeCollectionViewCell.swift in Sources */,
 				1DE4E5C9270A5CCE004A30CA /* ViewController.swift in Sources */,
 				B4AB568D2793F08400127FB7 /* LoginController.swift in Sources */,
 				1DE4E5C5270A5CCE004A30CA /* AppDelegate.swift in Sources */,
+				B4AB56B72793FA9600127FB7 /* PauseButton.swift in Sources */,
+				B4AB56C02793FB5C00127FB7 /* CDController.swift in Sources */,
 				B4AB569E2793F3DE00127FB7 /* ActivityDetailsController.swift in Sources */,
+				B4AB56B52793FA7B00127FB7 /* FinishButton.swift in Sources */,
 				B4AB56A32793F41C00127FB7 /* ActivityTableViewCell.swift in Sources */,
 				B4AB56992793F3A800127FB7 /* ActivityListController.swift in Sources */,
 				B4AB56902793F12C00127FB7 /* FormTextField.swift in Sources */,
 				B4AB56842793F01B00127FB7 /* PrimaryButton.swift in Sources */,
 				B4AB56942793F36700127FB7 /* TabsController.swift in Sources */,
+				B4AB56C52793FBBC00127FB7 /* fefuactivity.xcdatamodeld in Sources */,
 				B4AB56B22793F98D00127FB7 /* ActivityTrackingController.swift in Sources */,
+				B4AB56C22793FB6A00127FB7 /* CoreDataContainer.swift in Sources */,
 				B4AB56892793F07300127FB7 /* RegistrationController.swift in Sources */,
 				1DE4E5C7270A5CCE004A30CA /* SceneDelegate.swift in Sources */,
 				B4AB56A72793F49C00127FB7 /* ProfileController.swift in Sources */,
@@ -511,6 +563,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B4AB56C32793FBBC00127FB7 /* fefuactivity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B4AB56C42793FBBC00127FB7 /* fefuactivity.xcdatamodel */,
+			);
+			currentVersion = B4AB56C42793FBBC00127FB7 /* fefuactivity.xcdatamodel */;
+			path = fefuactivity.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1DE4E5B9270A5CCE004A30CA /* Project object */;
 }
