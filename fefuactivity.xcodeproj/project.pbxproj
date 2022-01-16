@@ -38,6 +38,8 @@
 		B4AB56C02793FB5C00127FB7 /* CDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56BF2793FB5C00127FB7 /* CDController.swift */; };
 		B4AB56C22793FB6A00127FB7 /* CoreDataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56C12793FB6A00127FB7 /* CoreDataContainer.swift */; };
 		B4AB56C52793FBBC00127FB7 /* fefuactivity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56C32793FBBC00127FB7 /* fefuactivity.xcdatamodeld */; };
+		B4AB56C827942A6200127FB7 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56C727942A6200127FB7 /* AuthService.swift */; };
+		B4AB56CA27942A7400127FB7 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56C927942A7400127FB7 /* Types.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +76,8 @@
 		B4AB56BF2793FB5C00127FB7 /* CDController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDController.swift; sourceTree = "<group>"; };
 		B4AB56C12793FB6A00127FB7 /* CoreDataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataContainer.swift; sourceTree = "<group>"; };
 		B4AB56C42793FBBC00127FB7 /* fefuactivity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fefuactivity.xcdatamodel; sourceTree = "<group>"; };
+		B4AB56C727942A6200127FB7 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		B4AB56C927942A7400127FB7 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +252,7 @@
 		B4AB56BD2793FB3700127FB7 /* Service Layer */ = {
 			isa = PBXGroup;
 			children = (
+				B4AB56C627942A4E00127FB7 /* ApiHelpers */,
 				B4AB56BE2793FB4B00127FB7 /* CoreData */,
 			);
 			path = "Service Layer";
@@ -260,6 +265,15 @@
 				B4AB56C12793FB6A00127FB7 /* CoreDataContainer.swift */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		B4AB56C627942A4E00127FB7 /* ApiHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB56C727942A6200127FB7 /* AuthService.swift */,
+				B4AB56C927942A7400127FB7 /* Types.swift */,
+			);
+			path = ApiHelpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,10 +358,12 @@
 				B4AB56BB2793FAC300127FB7 /* TypeCollectionViewCell.swift in Sources */,
 				1DE4E5C9270A5CCE004A30CA /* ViewController.swift in Sources */,
 				B4AB568D2793F08400127FB7 /* LoginController.swift in Sources */,
+				B4AB56CA27942A7400127FB7 /* Types.swift in Sources */,
 				1DE4E5C5270A5CCE004A30CA /* AppDelegate.swift in Sources */,
 				B4AB56B72793FA9600127FB7 /* PauseButton.swift in Sources */,
 				B4AB56C02793FB5C00127FB7 /* CDController.swift in Sources */,
 				B4AB569E2793F3DE00127FB7 /* ActivityDetailsController.swift in Sources */,
+				B4AB56C827942A6200127FB7 /* AuthService.swift in Sources */,
 				B4AB56B52793FA7B00127FB7 /* FinishButton.swift in Sources */,
 				B4AB56A32793F41C00127FB7 /* ActivityTableViewCell.swift in Sources */,
 				B4AB56992793F3A800127FB7 /* ActivityListController.swift in Sources */,
