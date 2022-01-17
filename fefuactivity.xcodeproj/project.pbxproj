@@ -13,6 +13,33 @@
 		1DE4E5CC270A5CCE004A30CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE4E5CA270A5CCE004A30CA /* Main.storyboard */; };
 		1DE4E5CE270A5CD0004A30CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE4E5CD270A5CD0004A30CA /* Assets.xcassets */; };
 		1DE4E5D1270A5CD0004A30CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE4E5CF270A5CD0004A30CA /* LaunchScreen.storyboard */; };
+		B4AB56842793F01B00127FB7 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56832793F01B00127FB7 /* PrimaryButton.swift */; };
+		B4AB56892793F07300127FB7 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56872793F07300127FB7 /* RegistrationController.swift */; };
+		B4AB568A2793F07300127FB7 /* RegistrationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4AB56882793F07300127FB7 /* RegistrationController.xib */; };
+		B4AB568D2793F08400127FB7 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB568B2793F08400127FB7 /* LoginController.swift */; };
+		B4AB568E2793F08400127FB7 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4AB568C2793F08400127FB7 /* LoginController.xib */; };
+		B4AB56902793F12C00127FB7 /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB568F2793F12C00127FB7 /* FormTextField.swift */; };
+		B4AB56942793F36700127FB7 /* TabsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56922793F36700127FB7 /* TabsController.swift */; };
+		B4AB56952793F36700127FB7 /* TabsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4AB56932793F36700127FB7 /* TabsController.xib */; };
+		B4AB56992793F3A800127FB7 /* ActivityListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56972793F3A800127FB7 /* ActivityListController.swift */; };
+		B4AB569A2793F3A800127FB7 /* ActivityListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4AB56982793F3A800127FB7 /* ActivityListController.xib */; };
+		B4AB569E2793F3DE00127FB7 /* ActivityDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB569C2793F3DE00127FB7 /* ActivityDetailsController.swift */; };
+		B4AB569F2793F3DE00127FB7 /* ActivityDetailsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4AB569D2793F3DE00127FB7 /* ActivityDetailsController.xib */; };
+		B4AB56A32793F41C00127FB7 /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56A12793F41C00127FB7 /* ActivityTableViewCell.swift */; };
+		B4AB56A42793F41C00127FB7 /* ActivityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4AB56A22793F41C00127FB7 /* ActivityTableViewCell.xib */; };
+		B4AB56A72793F49C00127FB7 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56A52793F49C00127FB7 /* ProfileController.swift */; };
+		B4AB56A82793F49C00127FB7 /* ProfileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4AB56A62793F49C00127FB7 /* ProfileController.xib */; };
+		B4AB56B22793F98D00127FB7 /* ActivityTrackingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56B02793F98D00127FB7 /* ActivityTrackingController.swift */; };
+		B4AB56B32793F98D00127FB7 /* ActivityTrackingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4AB56B12793F98D00127FB7 /* ActivityTrackingController.xib */; };
+		B4AB56B52793FA7B00127FB7 /* FinishButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56B42793FA7B00127FB7 /* FinishButton.swift */; };
+		B4AB56B72793FA9600127FB7 /* PauseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56B62793FA9600127FB7 /* PauseButton.swift */; };
+		B4AB56BB2793FAC300127FB7 /* TypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56B92793FAC300127FB7 /* TypeCollectionViewCell.swift */; };
+		B4AB56BC2793FAC300127FB7 /* TypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4AB56BA2793FAC300127FB7 /* TypeCollectionViewCell.xib */; };
+		B4AB56C02793FB5C00127FB7 /* CDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56BF2793FB5C00127FB7 /* CDController.swift */; };
+		B4AB56C22793FB6A00127FB7 /* CoreDataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56C12793FB6A00127FB7 /* CoreDataContainer.swift */; };
+		B4AB56C52793FBBC00127FB7 /* fefuactivity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56C32793FBBC00127FB7 /* fefuactivity.xcdatamodeld */; };
+		B4AB56C827942A6200127FB7 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56C727942A6200127FB7 /* AuthService.swift */; };
+		B4AB56CA27942A7400127FB7 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB56C927942A7400127FB7 /* Types.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +51,33 @@
 		1DE4E5CD270A5CD0004A30CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DE4E5D0270A5CD0004A30CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DE4E5D2270A5CD0004A30CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4AB56832793F01B00127FB7 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		B4AB56872793F07300127FB7 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		B4AB56882793F07300127FB7 /* RegistrationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistrationController.xib; sourceTree = "<group>"; };
+		B4AB568B2793F08400127FB7 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		B4AB568C2793F08400127FB7 /* LoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		B4AB568F2793F12C00127FB7 /* FormTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
+		B4AB56922793F36700127FB7 /* TabsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsController.swift; sourceTree = "<group>"; };
+		B4AB56932793F36700127FB7 /* TabsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabsController.xib; sourceTree = "<group>"; };
+		B4AB56972793F3A800127FB7 /* ActivityListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListController.swift; sourceTree = "<group>"; };
+		B4AB56982793F3A800127FB7 /* ActivityListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityListController.xib; sourceTree = "<group>"; };
+		B4AB569C2793F3DE00127FB7 /* ActivityDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailsController.swift; sourceTree = "<group>"; };
+		B4AB569D2793F3DE00127FB7 /* ActivityDetailsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityDetailsController.xib; sourceTree = "<group>"; };
+		B4AB56A12793F41C00127FB7 /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
+		B4AB56A22793F41C00127FB7 /* ActivityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityTableViewCell.xib; sourceTree = "<group>"; };
+		B4AB56A52793F49C00127FB7 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		B4AB56A62793F49C00127FB7 /* ProfileController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileController.xib; sourceTree = "<group>"; };
+		B4AB56B02793F98D00127FB7 /* ActivityTrackingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTrackingController.swift; sourceTree = "<group>"; };
+		B4AB56B12793F98D00127FB7 /* ActivityTrackingController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityTrackingController.xib; sourceTree = "<group>"; };
+		B4AB56B42793FA7B00127FB7 /* FinishButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishButton.swift; sourceTree = "<group>"; };
+		B4AB56B62793FA9600127FB7 /* PauseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseButton.swift; sourceTree = "<group>"; };
+		B4AB56B92793FAC300127FB7 /* TypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeCollectionViewCell.swift; sourceTree = "<group>"; };
+		B4AB56BA2793FAC300127FB7 /* TypeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypeCollectionViewCell.xib; sourceTree = "<group>"; };
+		B4AB56BF2793FB5C00127FB7 /* CDController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDController.swift; sourceTree = "<group>"; };
+		B4AB56C12793FB6A00127FB7 /* CoreDataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataContainer.swift; sourceTree = "<group>"; };
+		B4AB56C42793FBBC00127FB7 /* fefuactivity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fefuactivity.xcdatamodel; sourceTree = "<group>"; };
+		B4AB56C727942A6200127FB7 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		B4AB56C927942A7400127FB7 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +110,170 @@
 		1DE4E5C3270A5CCE004A30CA /* fefuactivity */ = {
 			isa = PBXGroup;
 			children = (
+				B4AB56BD2793FB3700127FB7 /* Service Layer */,
+				B4AB567F2793EFBE00127FB7 /* App Layer */,
 				1DE4E5C4270A5CCE004A30CA /* AppDelegate.swift */,
 				1DE4E5C6270A5CCE004A30CA /* SceneDelegate.swift */,
-				1DE4E5C8270A5CCE004A30CA /* ViewController.swift */,
 				1DE4E5CA270A5CCE004A30CA /* Main.storyboard */,
 				1DE4E5CD270A5CD0004A30CA /* Assets.xcassets */,
 				1DE4E5CF270A5CD0004A30CA /* LaunchScreen.storyboard */,
 				1DE4E5D2270A5CD0004A30CA /* Info.plist */,
+				B4AB56C32793FBBC00127FB7 /* fefuactivity.xcdatamodeld */,
 			);
 			path = fefuactivity;
+			sourceTree = "<group>";
+		};
+		B4AB567F2793EFBE00127FB7 /* App Layer */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB56B82793FAA100127FB7 /* CollectionViewCells */,
+				B4AB56A02793F3F700127FB7 /* TableViewCells */,
+				B4AB56822793EFDD00127FB7 /* TextFields */,
+				B4AB56812793EFD600127FB7 /* Controllers */,
+				B4AB56802793EFC900127FB7 /* Buttons */,
+			);
+			path = "App Layer";
+			sourceTree = "<group>";
+		};
+		B4AB56802793EFC900127FB7 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB56832793F01B00127FB7 /* PrimaryButton.swift */,
+				B4AB56B42793FA7B00127FB7 /* FinishButton.swift */,
+				B4AB56B62793FA9600127FB7 /* PauseButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		B4AB56812793EFD600127FB7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB56AF2793F97800127FB7 /* ActivityTracking */,
+				B4AB569B2793F3C700127FB7 /* ActivityDetails */,
+				B4AB56962793F39000127FB7 /* ActivityList */,
+				B4AB56912793F34600127FB7 /* Tabs */,
+				B4AB56862793F04900127FB7 /* Registration */,
+				B4AB56A92793F4A900127FB7 /* Profile */,
+				B4AB56852793F04200127FB7 /* Login */,
+				1DE4E5C8270A5CCE004A30CA /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B4AB56822793EFDD00127FB7 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB568F2793F12C00127FB7 /* FormTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		B4AB56852793F04200127FB7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB568B2793F08400127FB7 /* LoginController.swift */,
+				B4AB568C2793F08400127FB7 /* LoginController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B4AB56862793F04900127FB7 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB56872793F07300127FB7 /* RegistrationController.swift */,
+				B4AB56882793F07300127FB7 /* RegistrationController.xib */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		B4AB56912793F34600127FB7 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB56922793F36700127FB7 /* TabsController.swift */,
+				B4AB56932793F36700127FB7 /* TabsController.xib */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		B4AB56962793F39000127FB7 /* ActivityList */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB56972793F3A800127FB7 /* ActivityListController.swift */,
+				B4AB56982793F3A800127FB7 /* ActivityListController.xib */,
+			);
+			path = ActivityList;
+			sourceTree = "<group>";
+		};
+		B4AB569B2793F3C700127FB7 /* ActivityDetails */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB569C2793F3DE00127FB7 /* ActivityDetailsController.swift */,
+				B4AB569D2793F3DE00127FB7 /* ActivityDetailsController.xib */,
+			);
+			path = ActivityDetails;
+			sourceTree = "<group>";
+		};
+		B4AB56A02793F3F700127FB7 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB56A12793F41C00127FB7 /* ActivityTableViewCell.swift */,
+				B4AB56A22793F41C00127FB7 /* ActivityTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		B4AB56A92793F4A900127FB7 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB56A52793F49C00127FB7 /* ProfileController.swift */,
+				B4AB56A62793F49C00127FB7 /* ProfileController.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B4AB56AF2793F97800127FB7 /* ActivityTracking */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB56B02793F98D00127FB7 /* ActivityTrackingController.swift */,
+				B4AB56B12793F98D00127FB7 /* ActivityTrackingController.xib */,
+			);
+			path = ActivityTracking;
+			sourceTree = "<group>";
+		};
+		B4AB56B82793FAA100127FB7 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB56B92793FAC300127FB7 /* TypeCollectionViewCell.swift */,
+				B4AB56BA2793FAC300127FB7 /* TypeCollectionViewCell.xib */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		B4AB56BD2793FB3700127FB7 /* Service Layer */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB56C627942A4E00127FB7 /* ApiHelpers */,
+				B4AB56BE2793FB4B00127FB7 /* CoreData */,
+			);
+			path = "Service Layer";
+			sourceTree = "<group>";
+		};
+		B4AB56BE2793FB4B00127FB7 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB56BF2793FB5C00127FB7 /* CDController.swift */,
+				B4AB56C12793FB6A00127FB7 /* CoreDataContainer.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		B4AB56C627942A4E00127FB7 /* ApiHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB56C727942A6200127FB7 /* AuthService.swift */,
+				B4AB56C927942A7400127FB7 /* Types.swift */,
+			);
+			path = ApiHelpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +334,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DE4E5D1270A5CD0004A30CA /* LaunchScreen.storyboard in Resources */,
+				B4AB56A42793F41C00127FB7 /* ActivityTableViewCell.xib in Resources */,
 				1DE4E5CE270A5CD0004A30CA /* Assets.xcassets in Resources */,
+				B4AB56B32793F98D00127FB7 /* ActivityTrackingController.xib in Resources */,
+				B4AB56BC2793FAC300127FB7 /* TypeCollectionViewCell.xib in Resources */,
+				B4AB569A2793F3A800127FB7 /* ActivityListController.xib in Resources */,
+				B4AB568A2793F07300127FB7 /* RegistrationController.xib in Resources */,
+				B4AB56A82793F49C00127FB7 /* ProfileController.xib in Resources */,
+				B4AB568E2793F08400127FB7 /* LoginController.xib in Resources */,
+				B4AB569F2793F3DE00127FB7 /* ActivityDetailsController.xib in Resources */,
 				1DE4E5CC270A5CCE004A30CA /* Main.storyboard in Resources */,
+				B4AB56952793F36700127FB7 /* TabsController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +355,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4AB56BB2793FAC300127FB7 /* TypeCollectionViewCell.swift in Sources */,
 				1DE4E5C9270A5CCE004A30CA /* ViewController.swift in Sources */,
+				B4AB568D2793F08400127FB7 /* LoginController.swift in Sources */,
+				B4AB56CA27942A7400127FB7 /* Types.swift in Sources */,
 				1DE4E5C5270A5CCE004A30CA /* AppDelegate.swift in Sources */,
+				B4AB56B72793FA9600127FB7 /* PauseButton.swift in Sources */,
+				B4AB56C02793FB5C00127FB7 /* CDController.swift in Sources */,
+				B4AB569E2793F3DE00127FB7 /* ActivityDetailsController.swift in Sources */,
+				B4AB56C827942A6200127FB7 /* AuthService.swift in Sources */,
+				B4AB56B52793FA7B00127FB7 /* FinishButton.swift in Sources */,
+				B4AB56A32793F41C00127FB7 /* ActivityTableViewCell.swift in Sources */,
+				B4AB56992793F3A800127FB7 /* ActivityListController.swift in Sources */,
+				B4AB56902793F12C00127FB7 /* FormTextField.swift in Sources */,
+				B4AB56842793F01B00127FB7 /* PrimaryButton.swift in Sources */,
+				B4AB56942793F36700127FB7 /* TabsController.swift in Sources */,
+				B4AB56C52793FBBC00127FB7 /* fefuactivity.xcdatamodeld in Sources */,
+				B4AB56B22793F98D00127FB7 /* ActivityTrackingController.swift in Sources */,
+				B4AB56C22793FB6A00127FB7 /* CoreDataContainer.swift in Sources */,
+				B4AB56892793F07300127FB7 /* RegistrationController.swift in Sources */,
 				1DE4E5C7270A5CCE004A30CA /* SceneDelegate.swift in Sources */,
+				B4AB56A72793F49C00127FB7 /* ProfileController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +579,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B4AB56C32793FBBC00127FB7 /* fefuactivity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B4AB56C42793FBBC00127FB7 /* fefuactivity.xcdatamodel */,
+			);
+			currentVersion = B4AB56C42793FBBC00127FB7 /* fefuactivity.xcdatamodel */;
+			path = fefuactivity.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1DE4E5B9270A5CCE004A30CA /* Project object */;
 }
